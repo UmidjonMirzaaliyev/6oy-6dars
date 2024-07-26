@@ -1,8 +1,10 @@
-import { useState, useRef, useEffect } from "react";
 import "./App.css";
+import SignUpForm from "./components/SignUpForm/SignUpForm";
 
 function App() {
-  return <div></div>;
+  return <div>
+    <SignUpForm/>
+  </div>;
 }
 
 export default App;
